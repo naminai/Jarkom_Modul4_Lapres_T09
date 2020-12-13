@@ -50,16 +50,16 @@ Setelah kita mengetahui pembagian subnet-nya maka kita buat topologi seperti gam
 ![image](https://user-images.githubusercontent.com/61267430/102005469-95ccca80-3d4b-11eb-919d-c5885f51f4a1.png) 
 
 ### Setting Topologi pada UML	
-Pada UML, kita buat file topologi.sh seperti berikut: 
-![image](https://user-images.githubusercontent.com/61267430/102008917-7ee7a180-3d66-11eb-8d2f-c79c7f9bc293.png) 
-Kita jalankan dengan command `bash topologi.sh` dan pastikan semua UML terbuka tanpa kendala. 
+Pada UML, kita buat file topologi.sh seperti berikut:  
+![image](https://user-images.githubusercontent.com/61267430/102008917-7ee7a180-3d66-11eb-8d2f-c79c7f9bc293.png)  
+Kita jalankan dengan command `bash topologi.sh` dan pastikan semua UML terbuka tanpa kendala.  
 ![image](https://user-images.githubusercontent.com/61267430/102008957-d6860d00-3d66-11eb-90a4-ef9cb2aaa6f1.png)   
-Kita pastikan untuk mengedit file `/etc/sysctl.conf` seperti gambar berikut:   
-![image](https://user-images.githubusercontent.com/61267430/102008983-06351500-3d67-11eb-92ac-2930b3b68f01.png)   
-Kemudian cek menggunakan sysctl -p. Ulangi untuk setiap Router (Surabaya, Pasuruan, Probolinggo, Batu, Kediri, Madiun, Blitar).	
-![image](https://user-images.githubusercontent.com/61267430/102009023-46949300-3d67-11eb-9cb4-f4e607df348d.png)	
-Edit file `/etc/network/interfaces` dan tambahkan network interface yang sesuai dengan gambaran topologi yang sudah kita buat pada Cisco Packet Tracer.	
-Contoh:		
+Kita pastikan untuk mengedit file `/etc/sysctl.conf` seperti gambar berikut:  
+![image](https://user-images.githubusercontent.com/61267430/102008983-06351500-3d67-11eb-92ac-2930b3b68f01.png)  
+Kemudian cek menggunakan sysctl -p. Ulangi untuk setiap Router (Surabaya, Pasuruan, Probolinggo, Batu, Kediri, Madiun, Blitar).  
+![image](https://user-images.githubusercontent.com/61267430/102009023-46949300-3d67-11eb-9cb4-f4e607df348d.png)  
+Edit file `/etc/network/interfaces` dan tambahkan network interface yang sesuai dengan gambaran topologi yang sudah kita buat pada Cisco Packet Tracer.  
+Contoh:  
 __Router__		  
 ![image](https://user-images.githubusercontent.com/61267430/102009135-f1a54c80-3d67-11eb-8913-ee4ea58d43fb.png)	  
 __Server__  
