@@ -8,6 +8,11 @@ Catatan:
 2. Server diberikan IP DMZ  
 3. Memberikan memori sebesar 64MB pada setiap UML  
 ----------------------------------------------------------------------------
+Links: 
+* [CIDR](#cidr)
+* [VLSM](#vlsm)
+
+
 ## CIDR
 ### Subnetting	
 Pertama kita membuat topologi seperti pada gambar, kemudian kita tentukan jumlah IP yang dibutuhkan semua subnet menggunakan perhitungan jumlah IP seperti ini:  
