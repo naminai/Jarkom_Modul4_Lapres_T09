@@ -13,7 +13,7 @@ Catatan:
 ----------------------------------------------------------------------------
 ## CIDR
 Pertama kita membuat topologi seperti pada gambar, kemudian kita tentukan subnet-nya menggunakan tree di bawah ini: 
-![image](https://user-images.githubusercontent.com/61267430/102005443-703fc100-3d4b-11eb-9af1-014733e457f6.png) 
+![image](https://user-images.githubusercontent.com/61267430/102006299-b5b3bc80-3d52-11eb-89f9-d2019f89e6ad.png) 
 Setelah kita mengetahui pembagian subnet-nya maka kita buat topologi seperti gambar berikut:  
 ![image](https://user-images.githubusercontent.com/61267430/102005469-95ccca80-3d4b-11eb-919d-c5885f51f4a1.png) 
 
